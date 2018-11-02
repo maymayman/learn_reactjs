@@ -1,0 +1,32 @@
+{
+  "name": "customreactjs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack && node ./bin/www",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "lodash": "^4.17.10",
+    "react-router-dom": "^4.3.1"
+  }
+}
